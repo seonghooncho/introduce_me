@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>개발 페이지</title>
+
+    <style>
+        main {
+    padding: 20px;
+}
+
+.title {
+    justify-content: center; /* 수직기준 중앙 정렬 */
+    text-align: center; /* 수평기준 중앙 정렬 */
+}
+
+.project-image {
+    text-align: center; 
+}
+
+.project-image img {
+    width: 500px;
+    padding-left: 50px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CHO SEONG HOON</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="hobby.html">hobby</a></li>
+                <li><a href="skills.html">develop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-- 메인로직부분 -->
+
+    <main>
+        <section class="title">
+            <h2>Projects</h2>
+            <p>현재까지 진행한 프로젝트 목록입니다.</p>
+        </section>
+
+        <section class="array-column">
+            <div class="white-card">
+                <article>
+                    <h3>자기소개 웹 페이지</h3>
+                <p>
+                    HTML과 CSS를 사용하여 저를 소개하는 자기소개 웹 페이지를 제작하였습니다.<br>
+                    평소 많이 생각해보지 못했던 디자인적 요소도 직접 고민해보고 시도해 볼 수 있었습니다.<br>
+                    또한 HTML과 CSS를 어떤 일들을 할 수 있는지 알게 되었고 앞으로도 더욱 많은 것들을 웹으로 구현해보고 싶다고 생각하게 되었습니다.<br>
+                </p>
+                <p><span style="font-weight: bold;">HTML | CSS</span></p>
+                </article>
+
+                <article>
+                    <div class="project-image">
+                        <img src="image/wep-project.png" alt="web project Image">
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="array-column">
+            <div class="white-card">
+                <article>
+                    <h3>토익멍 기르기</h3>
+                <p>
+                    토익공부를 하며 쉽게 질려하는 사람들을 위한 동기부여 토익 영단어장을 제작하였습니다.<br>
+                    제작하는 과정에서 에자일 방법론 등 다양한 방법론을 사용해보아 협업에 있어서 기록들이 얼마나 중요한 것인지 알게 되었습니다.<br>
+                    또한 다양한 디자인 패턴을 사용하여 유지보수와 병합이 쉽도록 제작하였습니다.<br>
+                </p>
+                <p><span style="font-weight: bold;">PYTHON | PYQT5 | MYSQL</span></p>
+                </article>
+
+                <article>
+                    <div class="project-image">
+                        <img src="image/toic.png" alt="toic project Image">
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+<!-- 메인로직 끝 -->
+
+
+    <footer>
+        <table style="width: 30%;">
+            <tbody>
+                <tr>
+                    <td>Github</td>
+                    <td>Instagram</td>
+                    <td>Facebook</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/seonghooncho"> <img class="clickable-img" src="image/github.png"></a></td>
+                    <td><a href="https://instagram.com"> <img class="clickable-img" src="image/instagram.png"></a></td>
+                    <td><a href="https://facebook.com"> <img class="clickable-img" src="image/facebook.png"></a></td>
+                </tr>
+            </tbody>
+        </table> 
+    </footer>
+</body>
+</html>

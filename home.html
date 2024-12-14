@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>내 개인 홈페이지</title>
+    <style>
+        /* 컨테이너 */
+.container {
+  display: flex;
+  height: 600px;
+}
+
+/* 소개 섹션 */
+.introduction-section {
+  flex: 1;
+  padding: 40px;
+  padding-top: 5%;
+}
+
+/* 프로필 섹션 */
+.profile-section {
+  background-color: #a3b773;
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0px;
+}
+
+
+.image-article {
+  text-align: center;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 300px;
+  max-width: 100%;
+}
+
+.list-article {
+  padding-left: 20px;
+}
+
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 0px 25px ;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>CHO SEONG HOON</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="hobby.html">hobby</a></li>
+                <li><a href="develop.html">develop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <hr class="header-hr"> -->
+
+    <main class="container"> 
+        <section class="introduction-section">
+            <div>
+                <h3>안녕하세요!</h3>
+                <p>많은 사람들이 즐길 수 있는 웹 페이지를 만들고 싶은 조성훈입니다.</p>
+            </div>
+                <img src="image/newplant.png" alt="식물 사진" style="width: 400px; padding-left: 100px;">
+            <div>
+
+            </div>
+        </section>
+
+        <section class="profile-section">
+            <div class="white-card">
+                <article class="image-article">
+                    <img src="image/umc프로필.jpg" alt="내 사진" class="profile-photo">
+                </article>
+                <article class="list-article">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><span style="color: green; font-weight: bolder;">이름</span></td>
+                                <td>조성훈</td>
+                            </tr>
+                            <tr>
+                                <td><span style="color: green; font-weight: bolder;">생년월일</span></td>
+                                <td>01.08.07</td>
+                            </tr>
+                            <tr>
+                                <td><span style="color: green; font-weight: bolder;">학교</span></td>
+                                <td>상명대학교</td>
+                            </tr>
+                            <tr>
+                                <td><span style="color: green; font-weight: bolder;">전공</span></td>
+                                <td>휴먼지능정보공학</td>
+                            </tr>
+                            <tr>
+                                <td><span style="color: green; font-weight: bolder;">이메일</span></td>
+                                <td>imalex12@naver.com</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <hr>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><a href="hobby.html"> <img class="clickable-img" src="image/excercise.png"></a></td>
+                                <td><a href="develop.html"> <img class="clickable-img" src="image/work.png"></a></td>
+                            </tr>
+                            <tr>
+                                <td>취미</td>
+                                <td>개발</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </article>
+            </div>
+        </section>        
+    </main>
+
+    <footer>
+        <table style="width: 30%;">
+            <tbody>
+                <tr>
+                    <td>Github</td>
+                    <td>Instagram</td>
+                    <td>Facebook</td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/seonghooncho"> <img class="clickable-img" src="image/github.png"></a></td>
+                    <td><a href="https://instagram.com"> <img class="clickable-img" src="image/instagram.png"></a></td>
+                    <td><a href="https://facebook.com"> <img class="clickable-img" src="image/facebook.png"></a></td>
+                </tr>
+            </tbody>
+        </table> 
+    </footer>
+</body>
+</html>
